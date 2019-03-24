@@ -11,7 +11,7 @@
         <div>
         <!--This button creates the database--> 
         <!--plan for now is to get the users input and put it in logic--> 
-            <h3>Input what database you want to create</h3>
+            <h3>make it inline, and give pizzaz a name and id </h3>
             <label for="CheckBox"></label>
            
              <p>small pizza <input type="checkbox" name="pizzaSmall" id="CheckBox" value="pizza Small" /></p>
@@ -27,7 +27,7 @@
           -->
                 
       <br/>
-    (Leave blank to list all movies.)<br/>
+    <br/>
     </div>
     </form>
 
