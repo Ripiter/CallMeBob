@@ -7,12 +7,13 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Management;
 using System.Web.WebPages;
+using System.Diagnostics;
 
 namespace website_test
 {
     public partial class Default : System.Web.UI.Page
     {
-            App_Start.LogicTest a = new App_Start.LogicTest();
+        App_Start.LogicTest a = new App_Start.LogicTest();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -20,18 +21,29 @@ namespace website_test
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            
-            //a.LogicWork();
-        }
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            if (!Request.QueryString["searchGenre"].IsEmpty())
+            //If the method GET will be empty this will not happen
+            if (!Request.QueryString["pizzaSmall"].IsEmpty())
             {
                 // Do something here
-                System.Diagnostics.Debug.WriteLine("bob");
-                a.LogicWork(Request.QueryString["searchGenre"]);
+                System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaSmall"]);
+                //        a.LogicWork(Request.QueryString["searchGenre"]);
+
             }
+            if (!Request.QueryString["pizzaMedium"].IsEmpty())
+            {
+                // Do something here
+                System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaMedium"]);
+                //        a.LogicWork(Request.QueryString["searchGenre"]);
+            }
+            if (!Request.QueryString["pizzaBig"].IsEmpty())
+            {
+                // Do something here
+                System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaBig"]);
+                //        a.LogicWork(Request.QueryString["searchGenre"]);
+            }
+
         }
+
 
 
     }
