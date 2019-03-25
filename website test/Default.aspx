@@ -30,6 +30,7 @@
     <br/>
     </div>
     </form>
+    <a href="userInformation.aspx"> to user info</a>
 
 </body>
 </html>
