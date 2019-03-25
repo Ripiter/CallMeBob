@@ -9,6 +9,9 @@
 <body>
     <form method="get" id="form1" runat="server">
         <div>
+
+        </div>
+        <div>
         <!--This button creates the database--> 
         <!--plan for now is to get the users input and put it in logic--> 
             <h3>make it inline, and give pizzaz a name and id </h3>
