@@ -11,17 +11,24 @@
         <div>
         <!--This button creates the database--> 
         <!--plan for now is to get the users input and put it in logic--> 
-            <h3>make it inline, and give pizzaz a name and id </h3>
-            <label for="CheckBox"></label>
-           
-             <p>small pizza <input type="checkbox" name="pizzaSmall" id="CheckBox" value="pizza Small" /></p>
 
-               <p>medium pizza <input type="checkbox" name="pizzaMedium" value="pizza Medium" /> </p>
-         
+            
+            <!--Pizza fx basic-->
+            <h3>Pizza nr 1</h3> 
+           
+            <p>small pizza <input type="checkbox" name="pizzaSmall" value="pizza Small" /></p>
+            <p>medium pizza <input type="checkbox" name="pizzaMedium" value="pizza Medium" /> </p>
+            <p>big pizza <input type="checkbox" name="pizzaBig" value="pizza Big" /> </p>
+
+            <!--Pizza fx hawai-->
+            <h3>Pizza nr 2</h3>
+
+            <p>small pizza <input type="checkbox" name="pizzaSmall" id="CheckBox" value="pizza Small" /></p>
+            <p>medium pizza <input type="checkbox" name="pizzaMedium" value="pizza Medium" /> </p>         
             <p>big pizza <input type="checkbox" name="pizzaBig" value="pizza Big" /> </p>
             <asp:Button ID="Button1"  runat="server" OnClick="Button1_Click" Text="Proccede with order" value="Search Genre"/>
             </div>
-  <div>
+          <div>
       <!-- Make another input with differnt name 
           and use try to use it later see if you get 2 diffrent out puts
           -->

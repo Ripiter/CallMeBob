@@ -16,32 +16,23 @@ namespace website_test
         App_Start.LogicTest a = new App_Start.LogicTest();
         protected void Page_Load(object sender, EventArgs e)
         {
-
+          
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+
             //If the method GET will be empty this will not happen
             if (!Request.QueryString["pizzaSmall"].IsEmpty())
-            {
-                // Do something here
-                //a.LogicWork(Request.QueryString["pizzaSmall"]);
                 System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaSmall"]);
-                //        a.LogicWork(Request.QueryString["searchGenre"]);
 
-            }
             if (!Request.QueryString["pizzaMedium"].IsEmpty())
-            {
-                // Do something here
                 System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaMedium"]);
-                //        a.LogicWork(Request.QueryString["searchGenre"]);
-            }
+
             if (!Request.QueryString["pizzaBig"].IsEmpty())
-            {
-                // Do something here
                 System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaBig"]);
-                //        a.LogicWork(Request.QueryString["searchGenre"]);
-            }
+
+
             Response.Redirect("~/userInformation.aspx");
         }
 
