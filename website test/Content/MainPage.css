@@ -1,0 +1,113 @@
+﻿body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+ul {
+    background-color: #00B121;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: arial;
+}
+
+h1 {
+    font-family: arial;
+}
+
+li a:hover {
+    background-color: #01C426;
+}
+#logo{
+    float: left;
+}
+#picLogo{
+    height: 50%;
+    width: 50%;
+}
+
+.body-container {
+    background: url('/Img/pizza.jpg') center center / cover no-repeat fixed;
+}
+
+.body-row {
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+
+}
+
+.tableNumber {
+    width: 40px;
+    min-width: 40px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.tableName{
+    width: 100%
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    background-color: white;
+    border-width: 2px;
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.sorting {
+    padding-left: 8px;
+}
+
+tr:nth-child(odd).sorting_1 {
+    background: rgba(206, 206, 206, 0.5);
+}
+
+th{
+    text-align: left;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.tablePrice {
+    text-align: right;
+    padding-right: 12px;
+    min-width: 70px;
+}
+
+tr:nth-child(odd).sorting {
+    background: rgba(206, 206, 206, 0.5);
+}
