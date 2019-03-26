@@ -25,6 +25,7 @@ namespace website_test
             if (!Request.QueryString["pizzaSmall"].IsEmpty())
             {
                 // Do something here
+                //a.LogicWork(Request.QueryString["pizzaSmall"]);
                 System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaSmall"]);
                 //        a.LogicWork(Request.QueryString["searchGenre"]);
 
@@ -41,7 +42,7 @@ namespace website_test
                 System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaBig"]);
                 //        a.LogicWork(Request.QueryString["searchGenre"]);
             }
-
+            Response.Redirect("~/userInformation.aspx");
         }
 
 
