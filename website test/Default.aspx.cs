@@ -33,6 +33,8 @@ namespace website_test
         }
         void UpdateMessage()
         {
+
+            Label1.Text = message.ToString();
             lbmessage.Text = message.ToString();
         }
         protected void ID1SmallMinus(object sender, EventArgs e)
