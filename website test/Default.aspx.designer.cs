@@ -31,6 +31,24 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton Pizza1Small;
         
         /// <summary>
+        /// lbmessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbmessage;
+        
+        /// <summary>
+        /// Pizza1SmallMinus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Pizza1SmallMinus;
+        
+        /// <summary>
         /// Pizza1Medium control.
         /// </summary>
         /// <remarks>
