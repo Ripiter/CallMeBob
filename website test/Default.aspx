@@ -12,7 +12,7 @@
     <form method="get" id="form1" runat="server">
      <div class="body-container">
         <div class="Header">
-            <div class="nav">
+            <div class="nav" id="navID">
                 <ul>
                     <li id="logo"><img src="img/logo.png" id="picLogo"/></li>
                     <li><a href="#Menu">Menu</a></li>
