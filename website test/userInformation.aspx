@@ -10,7 +10,7 @@
     <form id="form1" runat="server" method="get">
         <div>
                 <input type="text" name="firstName" value="firstname" />
-            <br />
+            <br /> 
                 <input type="text" name="lastName" value="lastName" />
             <br />
                 <input type="text" name="email" value="email" />
@@ -18,5 +18,7 @@
                 <asp:Button ID="Button1"  runat="server" OnClick="userInfoSend" Text="Names Send" value="Search Genre"/>
         </div>
     </form>
+    <!--Make it display what time pizza will arive -->
+    <a href="Default.aspx">default website </a>
 </body>
 </html>

@@ -13,7 +13,6 @@ namespace website_test.App_Start
         public void ConnectionOpen()
         {
             con.Open();
-
         }
         public void ConnectionClosed()
         {
