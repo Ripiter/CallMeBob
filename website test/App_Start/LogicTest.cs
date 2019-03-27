@@ -15,6 +15,7 @@ namespace website_test.App_Start
         string nameOfPizza;
         string ingrediencePizza;
         int customerID = 1;
+        int orderId = 1;
         public int CustomerID
         {
             get
@@ -26,15 +27,26 @@ namespace website_test.App_Start
                 this.customerID = value;
             }
         }
+        public int OrderId
+        {
+            get
+            {
+                return this.orderId;
+            }
+            set
+            {
+                this.orderId = value;
+            }
+        }
 
         ConnectionToSql con = new ConnectionToSql();
         public void LogicWork(int id, string size)
         {
             //Random r = new Random();
+            //Ask mikel about that !=
             string plusOne = "UPDATE CustomerOrder SET orderID = orderID + 1 WHERE customerID != customerID";
             this.sizeOfPizza = size;
             this.idOfPizza = id;
-            int orderId = 1;
             PriseIsRight();
             NameIsRight();
             IngredienceInPizza();

@@ -51,6 +51,8 @@ namespace website_test
             App_Start.LogicTest logic = new App_Start.LogicTest();
 
             logic.CustomerID++;
+            logic.OrderId++;
+                
         }
 
     }

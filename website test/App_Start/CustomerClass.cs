@@ -11,6 +11,7 @@ namespace website_test.App_Start
     {
         public void SedingCustomer(string firstName, string lastName, string eMail, string tlfNr, string address)
         {
+            
             string plusOne = "UPDATE Customer SET customerID = customerID + 1 WHERE customerID = customerID";
             ConnectionToSql con = new ConnectionToSql();
             string query = "use PizzaTest;" +
