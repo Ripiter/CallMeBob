@@ -26,7 +26,8 @@ namespace website_test.App_Start
             string query = "use PizzaTest;" +
                 " Insert INTO Pizza" +
                 " values({0}, '{3}', '{1}', {2}, '{4}')";
-            string message = string.Format(query,id, size, prizeIsRight, nameOfPizza, ingrediencePizza); //I couldnt insert nameofthetable into the query
+            //Combine query with other string into 1 string called message
+            string message = string.Format(query,id, size, prizeIsRight, nameOfPizza, ingrediencePizza); 
 
             SqlCommand cmd = new SqlCommand(message, con.con);
             try
