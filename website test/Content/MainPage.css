@@ -1,12 +1,10 @@
 ﻿body {
     font-family: 'Lato', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
     margin: 0px;
 }
 
 ul {
-    background-color: #00B121;
+    background-color: #3d8e38;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -38,14 +36,14 @@ h1 {
 }
 
 li a:hover {
-    background-color: #01C426;
+    background-color: #469941;
 }
 #logo{
     float: left;
 }
 #picLogo{
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 .body-container {
@@ -110,4 +108,65 @@ td, th {
 
 tr:nth-child(odd).sorting {
     background: rgba(206, 206, 206, 0.5);
+}
+
+.fa-plus-circle{
+    color: green;
+}
+#orderBtn {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #3d8e38;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #469941;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+.nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 0%;
+    font-size: 1.4em;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.top{
+
 }
