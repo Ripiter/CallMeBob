@@ -87,7 +87,7 @@ namespace website_test
             if(tries > 0)
                 App_Start.ShoppingCart.Cart.Clear();
             //Redirect to user infomartion page
-            //Response.Redirect("~/userInformation.aspx");
+            Response.Redirect("~/userInformation.aspx");
         }
 
 

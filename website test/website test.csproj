@@ -128,6 +128,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\ConnectionToSql.cs" />
+    <Compile Include="App_Start\CustomerClass.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\LogicTest.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
