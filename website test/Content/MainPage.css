@@ -120,6 +120,11 @@ tr:nth-child(odd).sorting {
 .fa-plus-circle{
     color: green;
 }
+
+.fa-minus-circle {
+    color: green;
+}
+
 #orderBtn {
     margin-right: auto;
     margin-left: auto;
