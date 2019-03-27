@@ -15,6 +15,10 @@
             <br />
                 <input type="text" name="email" value="email" />
             <br />
+                <input type="text" name="tlfNr" value="42042066" />
+            <br />
+                <input type="text" name="address" value="email" />
+            <br />
                 <asp:Button ID="Button1"  runat="server" OnClick="userInfoSend" Text="Names Send" value="Search Genre"/>
         </div>
     </form>

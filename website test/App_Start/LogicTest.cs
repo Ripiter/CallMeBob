@@ -9,11 +9,12 @@ namespace website_test.App_Start
 {
     public class LogicTest
     {
-        int prizeIsRight;
+        int prizeIsRight; //Price of the pizza            
         string sizeOfPizza;
         int idOfPizza;
         string nameOfPizza;
         string ingrediencePizza;
+
         ConnectionToSql con = new ConnectionToSql();
         public void LogicWork(int id, string size)
         {
@@ -44,9 +45,10 @@ namespace website_test.App_Start
                 con.ConnectionClosed();
             }
         }
+        #region Price, Name, Ingredience 
         int PriseIsRight()
         {
-            // small , medium, big
+            //Depending on the size of the pizza we set price
             switch (sizeOfPizza)
             {
                 case "small":
@@ -60,11 +62,11 @@ namespace website_test.App_Start
                     break;
             }
             return prizeIsRight;
-
         }
 
         string NameIsRight()
         {
+            //Based from id of pizza we give a name
             switch (idOfPizza)
             {
                 case 1:
@@ -79,8 +81,10 @@ namespace website_test.App_Start
             }
             return nameOfPizza;
         }
+
         string IngredienceInPizza()
         {
+            //Based of id of pizza, we add ingredience
             switch (idOfPizza)
             {
                 case 1:
@@ -95,19 +99,7 @@ namespace website_test.App_Start
             }
                     return ingrediencePizza;
         }
-        #region Broken
-        public void MakeSmallPizza(int idOfPizza)
-        {
-            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(idOfPizza, "pizzaSmall");
-        }
-        public void MakeMediumPizza(int idOfPizza)
-        {
-            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(idOfPizza, "pizzaMedium");
-        }
-        public void MakeBigPizza(int idOfPizza)
-        {
-            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(idOfPizza, "pizzaBig");
-        }
         #endregion
+
     }
 }

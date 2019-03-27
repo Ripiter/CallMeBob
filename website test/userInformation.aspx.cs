@@ -13,32 +13,38 @@ namespace website_test
 {
     public partial class userInformation : System.Web.UI.Page
     {
+        App_Start.CustomerClass cc = new App_Start.CustomerClass();
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
+        string firstName;
+        string lastName;
+        string email;
+        string tlfNr;
+        string address;
+
         protected void userInfoSend(object sender, EventArgs e)
         {
+            
             //If the method GET will be empty this will not happen
-
-            // Do something here
             if (!Request.QueryString["firstName"].IsEmpty())
-                System.Diagnostics.Trace.WriteLine(Request.QueryString["firstName"]);
-                //        a.LogicWork(Request.QueryString["searchGenre"]);
+                firstName = Request.QueryString["firstName"];
 
-            
             if (!Request.QueryString["lastName"].IsEmpty())
-            {
-                // Do something here
-                System.Diagnostics.Trace.WriteLine(Request.QueryString["lastName"]);
-                //        a.LogicWork(Request.QueryString["searchGenre"]);
+                lastName = Request.QueryString["lastName"];
 
-            }
-            
-            if(!Request.QueryString["email"].IsEmpty())
-                System.Diagnostics.Trace.WriteLine(Request.QueryString["email"]);
+            if (!Request.QueryString["email"].IsEmpty())
+                email = Request.QueryString["email"];
 
+            if (!Request.QueryString["tlfNr"].IsEmpty())
+                 tlfNr = Request.QueryString["tlfNr"];
 
+            if (!Request.QueryString["address"].IsEmpty())
+                address = Request.QueryString["address"];
+
+            cc.SedingCustomer(firstName, lastName, email, tlfNr, address);
         }
+
     }
 }
