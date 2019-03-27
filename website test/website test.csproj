@@ -164,6 +164,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Img\btnimg.png" />
     <Content Include="Img\Logo.png" />
     <Content Include="Img\pizza.jpg" />
     <Content Include="Scripts\bootstrap.js" />
