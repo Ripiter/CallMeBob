@@ -13,27 +13,81 @@ namespace website_test
 {
     public partial class Default : System.Web.UI.Page
     {
-        App_Start.LogicTest a = new App_Start.LogicTest();
+        App_Start.LogicTest lt = new App_Start.LogicTest();
+        static int pizzaNumberID; 
         protected void Page_Load(object sender, EventArgs e)
         {
-          
+            
         }
+        //Make a list of 
+        
+      
+            //ForEach button 1 method
+        protected void ID1Small(object sender, EventArgs e)
+        {
+            pizzaNumberID = 1;
+            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "small");
+        }
+        
+        protected void ID1Medium(object sender, EventArgs e)
+        {
+            pizzaNumberID = 1;
+            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "medium");
+        }
+        protected void ID1Big(object sender, EventArgs e)
+        {
+            pizzaNumberID = 1;
+            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "big");
+        }
+        protected void ID2Small(object sender, EventArgs e)
+        {
+            pizzaNumberID = 2;
+            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "small");
+        }
+        protected void ID2Medium(object sender, EventArgs e)
+        {
+            pizzaNumberID = 2;
+            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "medium");
+        }
+        protected void ID2Big(object sender, EventArgs e)
+        {
+            pizzaNumberID = 2;
+            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "big");
+        }
+
+        protected void ID3Small(object sender, EventArgs e)
+        {
+            pizzaNumberID = 3;
+            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "small");
+        }
+        protected void ID3Medium(object sender, EventArgs e)
+        {
+            pizzaNumberID = 3;
+            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "medium");
+        }
+        protected void ID3Big(object sender, EventArgs e)
+        {
+            pizzaNumberID = 3;
+            App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "big");
+        }
+
+
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            int tries = 0;
+            //Prints all to output
+            foreach (var pizza in App_Start.ShoppingCart.Cart)
+            {
+                System.Diagnostics.Trace.WriteLine(pizza.ID, pizza.Size);
+                lt.LogicWork(pizza.ID, pizza.Size);
+                tries++;
+            }
 
-            //If the method GET will be empty this will not happen
-            if (!Request.QueryString["pizzaSmall"].IsEmpty())
-                System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaSmall"]);
-
-            if (!Request.QueryString["pizzaMedium"].IsEmpty())
-                System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaMedium"]);
-
-            if (!Request.QueryString["pizzaBig"].IsEmpty())
-                System.Diagnostics.Trace.WriteLine(Request.QueryString["pizzaBig"]);
-
-
-            Response.Redirect("~/userInformation.aspx");
+            if(tries > 0)
+                App_Start.ShoppingCart.Cart.Clear();
+            //Redirect to user infomartion page
+            //Response.Redirect("~/userInformation.aspx");
         }
 
 
