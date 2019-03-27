@@ -80,7 +80,7 @@
                             <h3>Magarita</h3>
                             <div>Den vildeste pizza med OST</div>
                         </td>
-                        <td class="columnPrice"><asp:LinkButton ID="Pizza1Small" runat="server" OnClick="ID1Small" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton></td>
+                        <td class="columnPrice"><asp:LinkButton ID="Pizza1Small" runat="server" OnClick="ID1Small" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmessage" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="Pizza1SmallMinus" runat="server" OnClick="ID1SmallMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton></td>
                         <td class="columnPrice"><asp:LinkButton ID="Pizza1Medium" runat="server" OnClick="ID1Medium" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton></td>
                         <td class="columnPrice"><asp:LinkButton ID="Pizza1Big" runat="server" OnClick="ID1Big" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton></td>
                     </tr>

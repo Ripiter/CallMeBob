@@ -15,9 +15,10 @@ namespace website_test
     {
         App_Start.LogicTest lt = new App_Start.LogicTest();
         static int pizzaNumberID; 
+        static int message = 0;
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            UpdateMessage();
         }
         //Make a list of 
         
@@ -27,7 +28,36 @@ namespace website_test
         {
             pizzaNumberID = 1;
             App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "small");
+            message++;
+            UpdateMessage();
         }
+        void UpdateMessage()
+        {
+            lbmessage.Text = message.ToString();
+        }
+        protected void ID1SmallMinus(object sender, EventArgs e)
+        {
+            pizzaNumberID = 1;
+            int i = 0;
+            int temp = -1;
+            try
+            {
+                foreach (var pizza in App_Start.ShoppingCart.Cart)
+                {
+                    if (pizzaNumberID == 1)
+                        temp = i;
+                    i++;
+                }
+                App_Start.ShoppingCart.Cart.RemoveAt(temp);
+                message--;
+            }
+            catch
+            {
+                message = 0;
+            }
+            UpdateMessage();
+        }
+
         
         protected void ID1Medium(object sender, EventArgs e)
         {
