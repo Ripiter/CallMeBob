@@ -44,6 +44,13 @@ namespace website_test
                 address = Request.QueryString["address"];
 
             cc.SedingCustomer(firstName, lastName, email, tlfNr, address);
+            IdSetter();
+        }
+        void IdSetter()
+        {
+            App_Start.LogicTest logic = new App_Start.LogicTest();
+
+            logic.CustomerID++;
         }
 
     }

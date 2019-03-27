@@ -14,21 +14,36 @@ namespace website_test.App_Start
         int idOfPizza;
         string nameOfPizza;
         string ingrediencePizza;
+        int customerID = 1;
+        public int CustomerID
+        {
+            get
+            {
+                return this.customerID;
+            }
+            set
+            {
+                this.customerID = value;
+            }
+        }
 
         ConnectionToSql con = new ConnectionToSql();
         public void LogicWork(int id, string size)
         {
+            //Random r = new Random();
+            string plusOne = "UPDATE CustomerOrder SET orderID = orderID + 1 WHERE customerID != customerID";
             this.sizeOfPizza = size;
             this.idOfPizza = id;
+            int orderId = 1;
             PriseIsRight();
             NameIsRight();
             IngredienceInPizza();
-            con.ConnectionOpen();
+            con.ConnectionOpen(); //insert into customerorder
             string query = "use PizzaTest;" +
-                " Insert INTO Pizza" +
-                " values({0}, '{3}', '{1}', {2}, '{4}')";
+                " Insert INTO CustomerOrder" +
+                " values({0}, {1}, '{2}', '{3}', {4}, {6}){5}";
             //Combine query with other string into 1 string called message
-            string message = string.Format(query,id, size, prizeIsRight, nameOfPizza, ingrediencePizza); 
+            string message = string.Format(query,orderId, id, nameOfPizza, size, prizeIsRight,plusOne, customerID); 
 
             SqlCommand cmd = new SqlCommand(message, con.con);
             try

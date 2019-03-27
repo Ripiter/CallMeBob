@@ -14,7 +14,7 @@
         <div class="Header">
             <div class="nav">
                 <ul>
-                    <li id="logo"><img src="img/logo.png" id="picLogo"/></li>
+                    <li id="logo"><img src="img/logo.png" id="picLogo"/> <input type="text" name="baconSearch" value="bacon" /><asp:Label id="Label2" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="LinkButton1" runat="server" OnClick="baconsearch" CssClass="btn btn-small btn-primary">Search</asp:LinkButton> </li>
                     <li><a href="#Menu">Menu</a></li>
                     <li><a href="#Kontakt">Kontakt</a></li>
                 </ul>
