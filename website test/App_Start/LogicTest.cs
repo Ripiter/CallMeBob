@@ -44,6 +44,7 @@ namespace website_test.App_Start
         {
             //Random r = new Random();
             //Ask mikel about that !=
+            //Add another set that looks like SET customerID = customerID + 1
             string plusOne = "UPDATE CustomerOrder SET orderID = orderID + 1 WHERE customerID != customerID";
             this.sizeOfPizza = size;
             this.idOfPizza = id;
