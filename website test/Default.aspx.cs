@@ -331,7 +331,48 @@ namespace website_test
             Response.Redirect("~/userInformation.aspx");
         }
 
+        protected void Baconsearch(object sender, EventArgs e)
+        {
+            App_Start.ConnectionToSql con = new App_Start.ConnectionToSql();
+            //Takes information from database that is called ingrediencelist
+            //and display the id of the pizza that have fx. bacon  
+            string searchingFor = Request.QueryString["baconSearch"].ToString();
+            string query = "use PizzaTest;" +
+                " select pizzaID from IngredienceList" +
+                // 0 = false, 1 = true, so if bacon == true, print id of pizza
+                " where {0} = 1;";
+            string message = string.Format(query, searchingFor);
+            con.ConnectionOpen();
+            SqlCommand cmd = new SqlCommand(message, con.con);
+            List<string> strings = new List<string>() { "id's #" };
+            try
+            {
+                SqlDataReader reader = cmd.ExecuteReader();
 
+                while (reader.Read())
+                {
+                    //While its reading we at the first item from the read into a string
+                    //Then we add this string into list
+                    //And finnaly we insert the string into the list
+                    string myString = reader[0].ToString();
+
+                    strings.Add(myString);
+                }
+                //All the strings from the list are outputed here as 1, 2, 3
+                lbelSqlSearch.Text = String.Join(", ", strings);
+            }
+            catch
+            {
+                lbelSqlSearch.Text = "No item with that ingredient";
+            }
+            finally
+            {
+                //We clear the list, because of error occurrence
+                strings.Clear();
+                con.ConnectionClosed();
+            }
+
+        }
 
     }
 }
