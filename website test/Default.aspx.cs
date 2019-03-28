@@ -16,6 +16,8 @@ namespace website_test
         App_Start.LogicTest lt = new App_Start.LogicTest();
         static int pizzaNumberID; 
         static int message = 0;
+        static int message1 = 0;
+        static int message2 = 0;
         protected void Page_Load(object sender, EventArgs e)
         {
             UpdateMessage();
@@ -23,6 +25,12 @@ namespace website_test
         //Make a list of 
         
       
+        void UpdateMessage()
+        {
+            lbmessage.Text = message.ToString();
+            lbmessage1.Text = message1.ToString();
+            lbmeesage2.Text = message2.ToString();
+        }
             //ForEach button 1 method
         protected void ID1Small(object sender, EventArgs e)
         {
@@ -30,10 +38,6 @@ namespace website_test
             App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "small");
             message++;
             UpdateMessage();
-        }
-        void UpdateMessage()
-        {
-            lbmessage.Text = message.ToString();
         }
         protected void ID1SmallMinus(object sender, EventArgs e)
         {
@@ -63,11 +67,60 @@ namespace website_test
         {
             pizzaNumberID = 1;
             App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "medium");
+            message1++;
+            UpdateMessage();
         }
+        protected void ID1MediumMinus(object sender, EventArgs e)
+        {
+            pizzaNumberID = 1;
+            int i = 0;
+            int temp = -1;
+            try
+            {
+                foreach (var pizza in App_Start.ShoppingCart.Cart)
+                {
+                    if (pizzaNumberID == 1)
+                        temp = i;
+                    i++;
+                }
+                App_Start.ShoppingCart.Cart.RemoveAt(temp);
+                message1--;
+            }
+            catch
+            {
+                message1 = 0;
+            }
+            UpdateMessage();
+        }
+        
         protected void ID1Big(object sender, EventArgs e)
         {
             pizzaNumberID = 1;
             App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "big");
+            message2++;
+            UpdateMessage();
+        }
+        protected void ID1BigMinus(object sender, EventArgs e)
+        {
+            pizzaNumberID = 1;
+            int i = 0;
+            int temp = -1;
+            try
+            {
+                foreach (var pizza in App_Start.ShoppingCart.Cart)
+                {
+                    if (pizzaNumberID == 1)
+                        temp = i;
+                    i++;
+                }
+                App_Start.ShoppingCart.Cart.RemoveAt(temp);
+                message2--;
+            }
+            catch
+            {
+                message2 = 0;
+            }
+            UpdateMessage();
         }
         protected void ID2Small(object sender, EventArgs e)
         {
