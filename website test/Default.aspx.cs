@@ -31,6 +31,7 @@ namespace website_test
             string searchingFor = Request.QueryString["baconSearch"].ToString();
             string query = "use PizzaTest;" +
                 " select pizzaID from IngredienceList" +
+                // 0 = false, 1 = true, so if bacon == true, print id of pizza
                 " where {0} = 1;" ;
             string message = string.Format(query, searchingFor);
             con.ConnectionOpen();
@@ -50,11 +51,11 @@ namespace website_test
                     strings.Add(myString);
                 }
                 //All the strings from the list are outputed here as 1, 2, 3
-                Label2.Text = String.Join(", ", strings);
+                lbSqlSearch.Text = String.Join(", ", strings);
             }
             catch
             {
-                Label2.Text = "No item with that ingredient";
+                lbSqlSearch.Text = "No item with that ingredient";
             }
             finally
             {
@@ -75,8 +76,8 @@ namespace website_test
         void UpdateMessage()
         {
 
-            Label1.Text = message.ToString();
-            lbmessage.Text = message.ToString();
+            lb1Small.Text = message.ToString();
+            lb1Medium.Text = message.ToString();
         }
         protected void ID1SmallMinus(object sender, EventArgs e)
         {
