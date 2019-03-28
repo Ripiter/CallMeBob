@@ -31,6 +31,7 @@ namespace website_test
             string searchingFor = Request.QueryString["baconSearch"].ToString();
             string query = "use PizzaTest;" +
                 " select pizzaID from IngredienceList" +
+                // 0 = false, 1 = true, so if bacon == true, print id of pizza
                 " where {0} = 1;" ;
             string message = string.Format(query, searchingFor);
             con.ConnectionOpen();
