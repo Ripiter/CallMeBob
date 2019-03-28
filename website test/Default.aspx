@@ -82,7 +82,7 @@
                         </td>
                         <td class="columnPrice"><asp:LinkButton ID="Pizza1Small" runat="server" OnClick="ID1Small" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmessage" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="Pizza1SmallMinus" runat="server" OnClick="ID1SmallMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></asp:LinkButton></td>
                         <td class="columnPrice"><asp:LinkButton ID="Pizza1Medium" runat="server" OnClick="ID1Medium" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmessage1" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="Pizza1MediumMinus" runat="server" OnClick="ID1MediumMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></asp:LinkButton></td>
-                        <td class="columnPrice"><asp:LinkButton ID="Pizza1Big" runat="server" OnClick="ID1Big" class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmeesage2" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="PizzaBigMinus" runat="server" OnClick="ID1BigMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></asp:LinkButton></td>
+                        <td class="columnPrice"><asp:LinkButton ID="Pizza1Big" runat="server" OnClick="ID1Big" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmeesage2" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="PizzaBigMinus" runat="server" OnClick="ID1BigMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></asp:LinkButton></td>
                     </tr>
                     <tr role="row" class="sorting" >
                         <td class="tableNumber">2</td>
@@ -90,9 +90,9 @@
                             <h3>Husets Pizza</h3>
                             <div>Tomat, Ost, Skinke, Hakket oksekød, Paprika og Hvidløg</div>
                         </td>
-                        <td class="columnPrice"><asp:LinkButton ID="Pizza2Small" runat="server" OnClick="ID2Small" class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton></td>
-                        <td class="columnPrice"><asp:LinkButton ID="Pizza2Medium" runat="server" OnClick="ID2Medium" class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton></td>
-                        <td class="columnPrice"><asp:LinkButton ID="Pizza2Big" runat="server" OnClick="ID2Big" class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton></td>
+                        <td class="columnPrice"><asp:LinkButton ID="Pizza2Small" runat="server" OnClick="ID2Small" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmeesage3" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="Pizza2SmallMinus" runat="server" OnClick="ID2SmallMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></asp:LinkButton></td>
+                        <td class="columnPrice"><asp:LinkButton ID="Pizza2Medium" runat="server" OnClick="ID2Medium" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmeesage4" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="Pizza2MediumMinus" runat="server" OnClick="ID2MediumMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></asp:LinkButton></td>
+                        <td class="columnPrice"><asp:LinkButton ID="Pizza2Big" runat="server" OnClick="ID2Big" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmessage5" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="Pizza2BigMinus" runat="server" OnClick="ID2BigMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></asp:LinkButton></td>
                     </tr>
                     <tr role="row" class="sorting" >
                         <td class="tableNumber">3</td>
@@ -100,9 +100,9 @@
                             <h3>Vesuvio</h3>
                             <div>Tomat, Ost og Skinke</div>
                         </td>
-                        <td class="columnPrice"><button ID="Pizza3Small" runat="server" OnClick="ID3Small" class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></button></td>
-                        <td class="columnPrice"><button ID="Pizza3Medium" runat="server" OnClick="ID3Medium" class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></button></td>
-                        <td class="columnPrice"><button ID="Pizza3Big" runat="server" OnClick="ID3Big" class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></button></td>
+                        <td class="columnPrice"><asp:LinkButton ID="Pizza3Small" runat="server" OnClick="ID3Small" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmessage6" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="Pizza3SmallMinus" runat="server" OnClick="ID3SmallMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></asp:LinkButton></td>
+                        <td class="columnPrice"><asp:LinkButton ID="Pizza3Medium" runat="server" OnClick="ID3Medium" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmessage7" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="Pizza3MediumMinus" runat="server" OnClick="ID3MediumMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></asp:LinkButton></td>
+                        <td class="columnPrice"><asp:LinkButton ID="Pizza3Big" runat="server" OnClick="ID3Big" CssClass="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></asp:LinkButton><asp:Label ID="lbmessage8" runat="server" Font-Size="Large" Font-Bold="true"></asp:Label><asp:LinkButton ID="Pizza3BigMinus" runat="server" OnClick="ID3BigMinus" CssClass="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></asp:LinkButton></td>
                     </tr>
                     <tr role="row" class="sorting" >
                         <td class="tableNumber">4</td>

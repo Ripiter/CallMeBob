@@ -112,6 +112,24 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton Pizza2Small;
         
         /// <summary>
+        /// lbmeesage3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbmeesage3;
+        
+        /// <summary>
+        /// Pizza2SmallMinus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Pizza2SmallMinus;
+        
+        /// <summary>
         /// Pizza2Medium control.
         /// </summary>
         /// <remarks>
@@ -119,6 +137,24 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton Pizza2Medium;
+        
+        /// <summary>
+        /// lbmeesage4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbmeesage4;
+        
+        /// <summary>
+        /// Pizza2MediumMinus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Pizza2MediumMinus;
         
         /// <summary>
         /// Pizza2Big control.
@@ -130,13 +166,49 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton Pizza2Big;
         
         /// <summary>
+        /// lbmessage5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbmessage5;
+        
+        /// <summary>
+        /// Pizza2BigMinus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Pizza2BigMinus;
+        
+        /// <summary>
         /// Pizza3Small control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton Pizza3Small;
+        protected global::System.Web.UI.WebControls.LinkButton Pizza3Small;
+        
+        /// <summary>
+        /// lbmessage6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbmessage6;
+        
+        /// <summary>
+        /// Pizza3SmallMinus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Pizza3SmallMinus;
         
         /// <summary>
         /// Pizza3Medium control.
@@ -145,7 +217,25 @@ namespace website_test {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton Pizza3Medium;
+        protected global::System.Web.UI.WebControls.LinkButton Pizza3Medium;
+        
+        /// <summary>
+        /// lbmessage7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbmessage7;
+        
+        /// <summary>
+        /// Pizza3MediumMinus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Pizza3MediumMinus;
         
         /// <summary>
         /// Pizza3Big control.
@@ -154,7 +244,25 @@ namespace website_test {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton Pizza3Big;
+        protected global::System.Web.UI.WebControls.LinkButton Pizza3Big;
+        
+        /// <summary>
+        /// lbmessage8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbmessage8;
+        
+        /// <summary>
+        /// Pizza3BigMinus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Pizza3BigMinus;
         
         /// <summary>
         /// orderBtn control.
