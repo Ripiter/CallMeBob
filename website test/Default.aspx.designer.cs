@@ -216,7 +216,7 @@ namespace website_test {
         
         /// <summary>
         /// lb3Small control.
-        /// </summary>
+        /// </summary> 
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
