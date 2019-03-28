@@ -49,13 +49,13 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton Pizza1Small;
         
         /// <summary>
-        /// lbmessage control.
+        /// lb1Small control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbmessage;
+        protected global::System.Web.UI.WebControls.Label lb1Small;
         
         /// <summary>
         /// Pizza1SmallMinus control.
@@ -76,13 +76,26 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton Pizza1Medium;
         
         /// <summary>
-        /// Label1 control.
+
+        /// lb1Medium control.
+
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+
+        protected global::System.Web.UI.WebControls.Label lb1Medium;
+        
+        /// <summary>
+        /// Pizza1MediumMinus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Pizza1MediumMinus;
+
         
         /// <summary>
         /// Pizza1Big control.
@@ -94,6 +107,24 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton Pizza1Big;
         
         /// <summary>
+        /// lb1Big control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb1Big;
+        
+        /// <summary>
+        /// Pizza1BigMinus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Pizza1BigMinus;
+        
+        /// <summary>
         /// Pizza2Small control.
         /// </summary>
         /// <remarks>
@@ -101,6 +132,24 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton Pizza2Small;
+        
+        /// <summary>
+        /// lb2Small control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb2Small;
+        
+        /// <summary>
+        /// LinkButton4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton4;
         
         /// <summary>
         /// Pizza2Medium control.
@@ -112,6 +161,24 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton Pizza2Medium;
         
         /// <summary>
+        /// lb2Medium control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb2Medium;
+        
+        /// <summary>
+        /// LinkButton3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton3;
+        
+        /// <summary>
         /// Pizza2Big control.
         /// </summary>
         /// <remarks>
@@ -119,6 +186,24 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton Pizza2Big;
+        
+        /// <summary>
+        /// lb2Big control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb2Big;
+        
+        /// <summary>
+        /// LinkButton1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton1;
         
         /// <summary>
         /// Pizza3Small control.
@@ -130,6 +215,24 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton Pizza3Small;
         
         /// <summary>
+        /// lb3Small control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb3Small;
+        
+        /// <summary>
+        /// LinkButton6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton6;
+        
+        /// <summary>
         /// Pizza3Medium control.
         /// </summary>
         /// <remarks>
@@ -137,6 +240,24 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton Pizza3Medium;
+        
+        /// <summary>
+        /// lb3Medium control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb3Medium;
+        
+        /// <summary>
+        /// LinkButton5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton5;
         
         /// <summary>
         /// Pizza3Big control.
@@ -148,6 +269,24 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton Pizza3Big;
         
         /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// LinkButton2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton2;
+        
+        /// <summary>
         /// LinkButton10 control.
         /// </summary>
         /// <remarks>
@@ -155,6 +294,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton10;
+        
+        /// <summary>
+        /// LinkButton7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton7;
         
         /// <summary>
         /// LinkButton11 control.
@@ -166,6 +314,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton11;
         
         /// <summary>
+        /// LinkButton8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton8;
+        
+        /// <summary>
         /// LinkButton12 control.
         /// </summary>
         /// <remarks>
@@ -173,6 +330,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton12;
+        
+        /// <summary>
+        /// LinkButton9 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton9;
         
         /// <summary>
         /// LinkButton13 control.
@@ -184,6 +350,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton13;
         
         /// <summary>
+        /// LinkButton67 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton67;
+        
+        /// <summary>
         /// LinkButton14 control.
         /// </summary>
         /// <remarks>
@@ -191,6 +366,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton14;
+        
+        /// <summary>
+        /// LinkButton68 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton68;
         
         /// <summary>
         /// LinkButton15 control.
@@ -202,6 +386,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton15;
         
         /// <summary>
+        /// LinkButton69 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton69;
+        
+        /// <summary>
         /// LinkButton16 control.
         /// </summary>
         /// <remarks>
@@ -209,6 +402,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton16;
+        
+        /// <summary>
+        /// LinkButton70 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton70;
         
         /// <summary>
         /// LinkButton17 control.
@@ -220,6 +422,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton17;
         
         /// <summary>
+        /// LinkButton71 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton71;
+        
+        /// <summary>
         /// LinkButton18 control.
         /// </summary>
         /// <remarks>
@@ -227,6 +438,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton18;
+        
+        /// <summary>
+        /// LinkButton72 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton72;
         
         /// <summary>
         /// LinkButton19 control.
@@ -238,6 +458,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton19;
         
         /// <summary>
+        /// LinkButton73 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton73;
+        
+        /// <summary>
         /// LinkButton20 control.
         /// </summary>
         /// <remarks>
@@ -245,6 +474,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton20;
+        
+        /// <summary>
+        /// LinkButton74 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton74;
         
         /// <summary>
         /// LinkButton21 control.
@@ -256,6 +494,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton21;
         
         /// <summary>
+        /// LinkButton75 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton75;
+        
+        /// <summary>
         /// LinkButton22 control.
         /// </summary>
         /// <remarks>
@@ -263,6 +510,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton22;
+        
+        /// <summary>
+        /// LinkButton76 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton76;
         
         /// <summary>
         /// LinkButton23 control.
@@ -274,6 +530,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton23;
         
         /// <summary>
+        /// LinkButton77 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton77;
+        
+        /// <summary>
         /// LinkButton24 control.
         /// </summary>
         /// <remarks>
@@ -281,6 +546,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton24;
+        
+        /// <summary>
+        /// LinkButton78 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton78;
         
         /// <summary>
         /// LinkButton25 control.
@@ -292,6 +566,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton25;
         
         /// <summary>
+        /// LinkButton79 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton79;
+        
+        /// <summary>
         /// LinkButton26 control.
         /// </summary>
         /// <remarks>
@@ -299,6 +582,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton26;
+        
+        /// <summary>
+        /// LinkButton80 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton80;
         
         /// <summary>
         /// LinkButton27 control.
@@ -310,6 +602,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton27;
         
         /// <summary>
+        /// LinkButton81 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton81;
+        
+        /// <summary>
         /// LinkButton28 control.
         /// </summary>
         /// <remarks>
@@ -317,6 +618,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton28;
+        
+        /// <summary>
+        /// LinkButton82 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton82;
         
         /// <summary>
         /// LinkButton29 control.
@@ -328,6 +638,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton29;
         
         /// <summary>
+        /// LinkButton83 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton83;
+        
+        /// <summary>
         /// LinkButton30 control.
         /// </summary>
         /// <remarks>
@@ -335,6 +654,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton30;
+        
+        /// <summary>
+        /// LinkButton84 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton84;
         
         /// <summary>
         /// LinkButton31 control.
@@ -346,6 +674,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton31;
         
         /// <summary>
+        /// LinkButton85 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton85;
+        
+        /// <summary>
         /// LinkButton32 control.
         /// </summary>
         /// <remarks>
@@ -353,6 +690,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton32;
+        
+        /// <summary>
+        /// LinkButton86 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton86;
         
         /// <summary>
         /// LinkButton33 control.
@@ -364,6 +710,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton33;
         
         /// <summary>
+        /// LinkButton87 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton87;
+        
+        /// <summary>
         /// LinkButton34 control.
         /// </summary>
         /// <remarks>
@@ -371,6 +726,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton34;
+        
+        /// <summary>
+        /// LinkButton88 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton88;
         
         /// <summary>
         /// LinkButton35 control.
@@ -382,6 +746,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton35;
         
         /// <summary>
+        /// LinkButton89 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton89;
+        
+        /// <summary>
         /// LinkButton36 control.
         /// </summary>
         /// <remarks>
@@ -389,6 +762,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton36;
+        
+        /// <summary>
+        /// LinkButton90 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton90;
         
         /// <summary>
         /// LinkButton37 control.
@@ -400,6 +782,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton37;
         
         /// <summary>
+        /// LinkButton91 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton91;
+        
+        /// <summary>
         /// LinkButton38 control.
         /// </summary>
         /// <remarks>
@@ -407,6 +798,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton38;
+        
+        /// <summary>
+        /// LinkButton92 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton92;
         
         /// <summary>
         /// LinkButton39 control.
@@ -418,6 +818,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton39;
         
         /// <summary>
+        /// LinkButton93 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton93;
+        
+        /// <summary>
         /// LinkButton40 control.
         /// </summary>
         /// <remarks>
@@ -425,6 +834,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton40;
+        
+        /// <summary>
+        /// LinkButton94 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton94;
         
         /// <summary>
         /// LinkButton41 control.
@@ -436,6 +854,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton41;
         
         /// <summary>
+        /// LinkButton95 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton95;
+        
+        /// <summary>
         /// LinkButton42 control.
         /// </summary>
         /// <remarks>
@@ -443,6 +870,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton42;
+        
+        /// <summary>
+        /// LinkButton96 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton96;
         
         /// <summary>
         /// LinkButton43 control.
@@ -454,6 +890,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton43;
         
         /// <summary>
+        /// LinkButton97 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton97;
+        
+        /// <summary>
         /// LinkButton44 control.
         /// </summary>
         /// <remarks>
@@ -461,6 +906,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton44;
+        
+        /// <summary>
+        /// LinkButton98 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton98;
         
         /// <summary>
         /// LinkButton45 control.
@@ -472,6 +926,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton45;
         
         /// <summary>
+        /// LinkButton99 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton99;
+        
+        /// <summary>
         /// LinkButton46 control.
         /// </summary>
         /// <remarks>
@@ -479,6 +942,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton46;
+        
+        /// <summary>
+        /// LinkButton100 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton100;
         
         /// <summary>
         /// LinkButton47 control.
@@ -490,6 +962,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton47;
         
         /// <summary>
+        /// LinkButton101 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton101;
+        
+        /// <summary>
         /// LinkButton48 control.
         /// </summary>
         /// <remarks>
@@ -497,6 +978,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton48;
+        
+        /// <summary>
+        /// LinkButton102 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton102;
         
         /// <summary>
         /// LinkButton49 control.
@@ -508,6 +998,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton49;
         
         /// <summary>
+        /// LinkButton103 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton103;
+        
+        /// <summary>
         /// LinkButton50 control.
         /// </summary>
         /// <remarks>
@@ -515,6 +1014,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton50;
+        
+        /// <summary>
+        /// LinkButton104 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton104;
         
         /// <summary>
         /// LinkButton51 control.
@@ -526,6 +1034,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton51;
         
         /// <summary>
+        /// LinkButton105 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton105;
+        
+        /// <summary>
         /// LinkButton52 control.
         /// </summary>
         /// <remarks>
@@ -533,6 +1050,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton52;
+        
+        /// <summary>
+        /// LinkButton106 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton106;
         
         /// <summary>
         /// LinkButton53 control.
@@ -544,6 +1070,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton53;
         
         /// <summary>
+        /// LinkButton107 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton107;
+        
+        /// <summary>
         /// LinkButton54 control.
         /// </summary>
         /// <remarks>
@@ -551,6 +1086,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton54;
+        
+        /// <summary>
+        /// LinkButton108 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton108;
         
         /// <summary>
         /// LinkButton55 control.
@@ -562,6 +1106,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton55;
         
         /// <summary>
+        /// LinkButton109 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton109;
+        
+        /// <summary>
         /// LinkButton56 control.
         /// </summary>
         /// <remarks>
@@ -569,6 +1122,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton56;
+        
+        /// <summary>
+        /// LinkButton110 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton110;
         
         /// <summary>
         /// LinkButton57 control.
@@ -580,6 +1142,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton57;
         
         /// <summary>
+        /// LinkButton111 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton111;
+        
+        /// <summary>
         /// LinkButton58 control.
         /// </summary>
         /// <remarks>
@@ -587,6 +1158,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton58;
+        
+        /// <summary>
+        /// LinkButton112 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton112;
         
         /// <summary>
         /// LinkButton59 control.
@@ -598,6 +1178,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton59;
         
         /// <summary>
+        /// LinkButton113 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton113;
+        
+        /// <summary>
         /// LinkButton60 control.
         /// </summary>
         /// <remarks>
@@ -605,6 +1194,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton60;
+        
+        /// <summary>
+        /// LinkButton114 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton114;
         
         /// <summary>
         /// LinkButton61 control.
@@ -616,6 +1214,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton61;
         
         /// <summary>
+        /// LinkButton115 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton115;
+        
+        /// <summary>
         /// LinkButton62 control.
         /// </summary>
         /// <remarks>
@@ -623,6 +1230,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton62;
+        
+        /// <summary>
+        /// LinkButton116 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton116;
         
         /// <summary>
         /// LinkButton63 control.
@@ -634,6 +1250,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton63;
         
         /// <summary>
+        /// LinkButton117 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton117;
+        
+        /// <summary>
         /// LinkButton64 control.
         /// </summary>
         /// <remarks>
@@ -641,6 +1266,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton64;
+        
+        /// <summary>
+        /// LinkButton118 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton118;
         
         /// <summary>
         /// LinkButton65 control.
@@ -652,6 +1286,15 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton LinkButton65;
         
         /// <summary>
+        /// LinkButton119 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton119;
+        
+        /// <summary>
         /// LinkButton66 control.
         /// </summary>
         /// <remarks>
@@ -659,6 +1302,15 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButton66;
+        
+        /// <summary>
+        /// LinkButton120 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton120;
         
         /// <summary>
         /// orderBtn control.
