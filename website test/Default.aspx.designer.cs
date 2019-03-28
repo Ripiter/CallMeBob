@@ -22,22 +22,22 @@ namespace website_test {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Label2 control.
+        /// lbelSqlSearch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lbelSqlSearch;
         
         /// <summary>
-        /// LinkButton1 control.
+        /// lbSqlSearch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkButton1;
+        protected global::System.Web.UI.WebControls.LinkButton lbSqlSearch;
         
         /// <summary>
         /// Pizza1Small control.
@@ -76,15 +76,12 @@ namespace website_test {
         protected global::System.Web.UI.WebControls.LinkButton Pizza1Medium;
         
         /// <summary>
-
         /// lb1Medium control.
-
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-
         protected global::System.Web.UI.WebControls.Label lb1Medium;
         
         /// <summary>
@@ -95,7 +92,6 @@ namespace website_test {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton Pizza1MediumMinus;
-
         
         /// <summary>
         /// Pizza1Big control.
@@ -216,7 +212,7 @@ namespace website_test {
         
         /// <summary>
         /// lb3Small control.
-        /// </summary>
+        /// </summary> 
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
