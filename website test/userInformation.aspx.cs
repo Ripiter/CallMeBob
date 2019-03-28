@@ -14,6 +14,7 @@ namespace website_test
     public partial class userInformation : System.Web.UI.Page
     {
         App_Start.CustomerClass cc = new App_Start.CustomerClass();
+        App_Start.LogicTest logic = new App_Start.LogicTest();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -44,6 +45,24 @@ namespace website_test
                 address = Request.QueryString["address"];
 
             cc.SedingCustomer(firstName, lastName, email, tlfNr, address);
+            IdSetter();
+
+            int tries = 0;
+            //Prints all to output
+            foreach (var pizza in App_Start.ShoppingCart.Cart)
+            {
+                System.Diagnostics.Trace.WriteLine(pizza.ID, pizza.Size);
+                logic.LogicWork(pizza.ID, pizza.Size);
+                tries++;
+            }
+
+            if (tries > 0)
+                App_Start.ShoppingCart.Cart.Clear();
+        }
+        void IdSetter()
+        {
+            logic.CustomerID = logic.CustomerID + 1; 
+            
         }
 
     }
