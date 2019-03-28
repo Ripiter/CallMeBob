@@ -147,7 +147,7 @@
                     <tr role="row" class="sorting" >
                         <td class="tableNumber">8</td>
                         <td class="tableName">
-                            <h3>Limfjord</h3>
+                            <h3>Limfjord</h3> 
                             <div>Tomat, Ost, Tun, Muslinger og Rejer</div>
                         </td>
                         <td class="columnPrice"><button class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></button><button class="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></button></td>
