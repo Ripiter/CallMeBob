@@ -148,17 +148,17 @@ namespace website_test
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            int tries = 0;
-            //Prints all to output
-            foreach (var pizza in App_Start.ShoppingCart.Cart)
-            {
-                System.Diagnostics.Trace.WriteLine(pizza.ID, pizza.Size);
-                lt.LogicWork(pizza.ID, pizza.Size);
-                tries++;
-            }
+            //int tries = 0;
+            ////Prints all to output
+            //foreach (var pizza in App_Start.ShoppingCart.Cart)
+            //{
+            //    System.Diagnostics.Trace.WriteLine(pizza.ID, pizza.Size);
+            //    lt.LogicWork(pizza.ID, pizza.Size);
+            //    tries++;
+            //}
 
-            if(tries > 0)
-                App_Start.ShoppingCart.Cart.Clear();
+            //if(tries > 0)
+            //    App_Start.ShoppingCart.Cart.Clear();
             //Redirect to user infomartion page
             Response.Redirect("~/userInformation.aspx");
         }

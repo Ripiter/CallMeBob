@@ -45,7 +45,7 @@ namespace website_test.App_Start
             //Random r = new Random();
             //Ask mikel about that !=
             //Add another set that looks like SET customerID = customerID + 1
-            string plusOne = "UPDATE CustomerOrder SET orderID = orderID + 1 WHERE customerID != customerID";
+            string plusOne = "UPDATE CustomerOrder SET orderID = orderID + 1";
             this.sizeOfPizza = size;
             this.idOfPizza = id;
             PriseIsRight();
@@ -56,7 +56,7 @@ namespace website_test.App_Start
                 " Insert INTO CustomerOrder" +
                 " values({0}, {1}, '{2}', '{3}', {4}, {6}){5}";
             //Combine query with other string into 1 string called message
-            string message = string.Format(query,orderId, id, nameOfPizza, size, prizeIsRight,plusOne, customerID); 
+            string message = string.Format(query,orderId, id, nameOfPizza, size, prizeIsRight,plusOne, CustomerID); 
 
             SqlCommand cmd = new SqlCommand(message, con.con);
             try
