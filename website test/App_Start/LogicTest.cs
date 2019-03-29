@@ -20,15 +20,18 @@ namespace website_test.App_Start
         {
             this.sizeOfPizza = size;
             this.idOfPizza = id;
+            int orderId = 1;
+            int customerID = 1;
+            string plusOne = "UPDATE CustomerOrder SET customerID = customerID + 1; update CustomerOrder set orderID = orderID + 1;";
             PriseIsRight();
             NameIsRight();
             IngredienceInPizza();
             con.ConnectionOpen();
-            string query = "use PizzaTest;" +
-                " Insert INTO Pizza" +
-                " values({0}, '{3}', '{1}', {2}, '{4}')";
+            string query = "use PizzaDatabase;" +
+                " Insert INTO CustomerOrder" +
+                " values({0}, {1}, '{4}', '{2}', {3}, {5}){6}";
             //Combine query with other string into 1 string called message
-            string message = string.Format(query,id, size, prizeIsRight, nameOfPizza, ingrediencePizza); 
+            string message = string.Format(query,orderId, idOfPizza, size, prizeIsRight, nameOfPizza,customerID, plusOne); 
 
             SqlCommand cmd = new SqlCommand(message, con.con);
             try

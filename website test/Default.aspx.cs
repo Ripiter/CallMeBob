@@ -14,7 +14,7 @@ namespace website_test
     public partial class Default : System.Web.UI.Page
     {
         App_Start.LogicTest lt = new App_Start.LogicTest();
-        static int pizzaNumberID;
+        int pizzaNumberID;
         #region Setting values of the labels
         static int message = 0;
         static int message1 = 0;
@@ -145,7 +145,7 @@ namespace website_test
         {
             pizzaNumberID = 2;
             App_Start.ShoppingCart sc = new App_Start.ShoppingCart(pizzaNumberID, "small");
-            message3--;
+            message3++;
         }
         protected void ID2SmallMinus(object sender, EventArgs e) //
         {
@@ -337,7 +337,7 @@ namespace website_test
             //Takes information from database that is called ingrediencelist
             //and display the id of the pizza that have fx. bacon  
             string searchingFor = Request.QueryString["baconSearch"].ToString();
-            string query = "use PizzaTest;" +
+            string query = "use PizzaDatabase;" +
                 " select pizzaID from IngredienceList" +
                 // 0 = false, 1 = true, so if bacon == true, print id of pizza
                 " where {0} = 1;";

@@ -17,7 +17,7 @@
                     <li id="logo"><img src="img/logo.png" id="picLogo" /></li>
                     <li><a href="#Menu">Menu</a></li>
                     <li><a href="#Kontakt">Kontakt</a></li>
-                    <input type="text" name="baconSearch" value="bacon" /> <asp:Label id="lbelSqlSearch" runat="server" Font-Bold="true"></asp:Label><asp:LinkButton runat="server" ID="lbSqlSearch" OnClick="Baconsearch" value="bacon"> Search</asp:LinkButton>
+                    <input type="text" name="baconSearch" value="cheese" /> <asp:Label id="lbelSqlSearch" runat="server" Font-Bold="true"></asp:Label><asp:LinkButton runat="server" ID="lbSqlSearch" OnClick="Baconsearch" value="bacon"> Search</asp:LinkButton>
                 </ul>
             </div>
         </div>
