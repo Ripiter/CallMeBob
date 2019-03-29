@@ -11,13 +11,14 @@ namespace website_test.App_Start
     {
         public void SedingCustomer(string firstName, string lastName, string eMail, string tlfNr, string address)
         {
-            string plusOne = "UPDATE Customer SET customerID = customerID + 1 WHERE customerID = customerID";
+            string plusOne = "UPDATE Customer SET customerID = customerID + 1;";
+            int customerID = 1;
             ConnectionToSql con = new ConnectionToSql();
-            string query = "use PizzaTest;" +
+            string query = "use PizzaDatabase;" +
                 " Insert INTO Customer" +
-                " values(0,'{0}', '{1}', '{2}', {3}, '{4}') {5}";
+                " values({6},'{0}', '{1}', '{2}', {3}, '{4}') {5}";
             //Combine query with other string into 1 string called message
-            string message = string.Format(query, firstName, lastName, eMail, tlfNr, address, plusOne);
+            string message = string.Format(query, firstName, lastName, eMail, tlfNr, address, plusOne, customerID);
 
             SqlCommand cmd = new SqlCommand(message, con.con);
             con.ConnectionOpen();
