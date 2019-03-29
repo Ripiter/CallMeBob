@@ -111,9 +111,9 @@
                             <h3>Mix</h3>
                             <div>Tomat, Ost, Kebab, Paprika, Champignon og Bearnaise</div>
                         </td>
-                        <td class="columnPrice"><button class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></button><button class="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></button></td>
-                        <td class="columnPrice"><button class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></button><button class="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></button></td>
-                        <td class="columnPrice"><button class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></button><button class="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></button></td>
+                        <td class="columnPrice"><button class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></button>0<button class="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></button></td>
+                        <td class="columnPrice"><button class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></button>0<button class="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></button></td>
+                        <td class="columnPrice"><button class="btn btn-small btn-primary"><i class="fas fa-plus-circle"></i></button>0<button class="btn btn-small btn-primary"><i class="fas fa-minus-circle"></i></button></td>
                     </tr>
                     <tr role="row" class="sorting" >
                         <td class="tableNumber">5</td>
